@@ -6,7 +6,7 @@ import sqlite3
 
 app = Flask(__name__)
 CORS(app)  # Enable CORS for all routes
-print(app)
+#print(app)
 
 def createHotelsTable():
     # Connect to the database (this will create a new file if it doesn't exist)
@@ -451,6 +451,6 @@ def get_filtered_hotels():
 
 
 if __name__ == '__main__':
-    print(app)
+    #print(app)
     app.run(debug=True)
     #createHotelsTable()
